@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/fad2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Nama: Fadhly Aulia R"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="TTL : Bandung, 7 April 1999"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Alamat : Jln.Flamboyan III No.52 RT39/04"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Hobi : Berolahraga"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="229dp" />
+</LinearLayout>
